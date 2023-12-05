@@ -154,6 +154,10 @@ while True:
   print()
   scroll("Press Enter to Continue", 0.1)
   input("> ")
+  object1 = current_area[0]
+  object2 = current_area[1]
+  object3 = current_area[2]
+  object4 = current_area[3]
   save.close()
   save = open(user + ".txt", "w")
   save.writelines(data)
