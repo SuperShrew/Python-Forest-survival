@@ -1,7 +1,7 @@
 import time
 import os
-from replit import db
-from termcolor import colored
+#from replit import db
+#from termcolor import colored
 import random
 
 loot = {
